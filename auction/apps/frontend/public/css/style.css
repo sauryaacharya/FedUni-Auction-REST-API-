@@ -1,0 +1,250 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 18, 2016, 6:25:39 PM
+    Author     : saurya
+*/
+body
+{
+   background:#f8f8f8;
+   margin:0;
+}
+
+h1, h2, h3, h4
+{
+    margin:0;
+    padding:0;
+}
+
+hr {
+    height:2px;
+    border:none;
+    background:#ddd;
+    display:block;
+}
+
+#body_wrapper
+{
+    width:100%;
+    margin:0 auto;
+}
+
+#header
+{
+    width:100%;
+    margin:0 auto;
+    padding:10px 0px 10px 0px;
+    background:#004d66;
+}
+
+#header_content
+{
+    width:70%;
+    margin:0 auto;
+    
+}
+
+
+#main_page
+{
+    width:100%;
+    background:#f8f8f8;
+}
+
+#main_page_content
+{
+    width:70%;
+    background:#fff;
+    margin:0 auto;
+    padding:15px 15px 15px 15px;
+    border-top:none;
+    border-right:1px solid #eaeaea;
+    border-left:1px solid #eaeaea;
+    border-bottom:1px solid #eaeaea;
+}
+
+#user_biddings
+{
+    width:600px;
+}
+
+.each_bidding
+{
+    border-bottom:1px solid #ddd;
+    padding:7px;
+}
+
+.each_bidding:nth-child(odd)
+{
+    background:#f5f5f5;
+}
+
+.each_bidding:nth-child(even)
+{
+    background:#fff;
+}
+
+#item_list
+{
+    
+}
+
+.each_item
+{
+    border-bottom:1px solid #ddd;
+    padding:7px 7px 7px 7px;
+    transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -webkit-transition:all 0.4s ease-in-out;
+    -ms-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+}
+
+.each_item:nth-child(odd)
+{
+    background:#fcfcfc;
+}
+
+.each_item:nth-child(even)
+{
+    background:#fff;
+}
+
+.each_item:hover
+{
+    background:#f9f9f9;
+    transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -webkit-transition:all 0.4s ease-in-out;
+    -ms-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+}
+
+.item_cont
+{
+    float:right;
+    width:783px;
+}
+
+.item_cont a
+{
+    text-decoration:none;
+    color:#006680;
+}
+
+.item_cont a:hover
+{
+    text-decoration:underline;
+}
+
+.desc_cont
+{
+    font-family:Arial;
+    font-size:14px;
+    color:#666;
+}
+
+#bidding_form
+{
+    width:600px;
+    border:1px solid #ccc;
+    border-radius:2px;
+    margin-top:20px;
+    padding:15px;
+}
+
+#bidding_form label
+{
+    font-family:Arial;
+    font-weight:bold;
+    color:#4d4d4d;
+    font-size:14px;
+}
+
+#name, #bid_amount
+{
+    margin-bottom:10px;
+    width:100%;
+    height:42px;
+    border:2px solid #B8B8B8;
+    font-family:Arial;
+    font-size:17px;
+    color:#5F5F5F;
+    padding-left:5px;
+}
+
+#details
+{
+    margin-bottom:10px;
+    width:100%;
+    height:120px;
+    border:2px solid #B8B8B8;
+    font-family:Arial;
+    font-size:17px;
+    color:#5F5F5F;
+    padding-left:5px;
+    resize:none;
+    overflow:auto;
+}
+
+#name:hover, #bid_amount:hover, #details:hover
+{
+    border:2px solid #004d66;
+    transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+}
+
+#name:focus, #bid_amount:focus, #details:focus
+{
+    border:2px solid #004d66;
+    box-shadow:0px 0px 4px #004d66;   
+}
+
+#post_bid_btn
+{
+    background:#004d66;
+    border:none;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    width:140px;
+    height:37px;
+    cursor:pointer;
+    border-radius:2px;
+}
+
+#post_bid_btn:hover
+{
+    background:#007399;
+}
+
+#bidding_link
+{
+    background:#0086b3;
+    border:none;
+    color:#fff;
+    height:35px;
+    border-radius:2px;
+    cursor:pointer;
+}
+
+#bidding_link:hover
+{
+    background:#007399;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
